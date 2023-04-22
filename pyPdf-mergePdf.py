@@ -10,10 +10,8 @@ import datetime
 from PyPDF2 import PdfFileMerger, PdfFileReader
 
 currentDirectoryName = os.getcwd()
-searchDir = os.path.join(currentDirectoryName, "fuel-data-org")
-searchDir = r".\KmlBuilder\bin\Debug\AppSupport\7z.exe"
-searchDir = r"C:\Users\kzs0z1\Documents\200105-CES2020-Trip\191215-Reise-LasVegas\Belege"
-searchDir = r"C:\Users\kzs0z1\Documents\190320-Pdf-Print-Batch"
+searchDir = os.path.join(currentDirectoryName, "test")
+searchDir = r"C:\Users\myid\Documents\Pdf-Print-Batch-Test"
 dirContent = os.listdir(searchDir)
 
 
